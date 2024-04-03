@@ -1,0 +1,59 @@
+style.css
+body {
+    font-family: 'Open Sans', sans-serif; /* Default font for the page */
+    background-color: #f0f8ff; /* Soft blue background, reminiscent of a clear sky */
+    padding: 20px; /* Adds padding around the page content */
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #007bff; /* Adds a distinct background color to the navigation */
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px; /* Adds margin below the nav for separation */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    background-color: #0056b3; /* Darker blue on hover for better interaction */
+    border-radius: 5px; /* Slight rounding of corners on hover */
+}
+
+/* Serif Font for Headers */
+h1, h2, h3 {
+    font-family: 'Georgia', serif; /* Serif font for headers, with fallback to generic serif */
+}
+
+/* Article & Main Content Styles */
+article {
+    background-color: #ffffff; /* White background for articles for readability */
+    padding: 20px; /* Inner spacing */
+    margin-bottom: 20px; /* Separation between articles */
+    border-radius: 8px; /* Softens the corners */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+/* Image Styles */
+img {
+    max-width: 100%; /* Responsive images */
+    height: auto;
+    display: block; /* Removes bottom space under images */
+    margin: 0 auto 20px; /* Centers images and adds spacing */
+}
+
+/* Unique Page Layout - Example for a specific page */
+.unique-layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between elements */
+}
+
+.unique-layout article {
+    flex: 1 1 300px; /* Allows boxes to be flexible but not smaller than 300px */
+}
