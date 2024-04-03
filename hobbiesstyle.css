@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f6f7; /* Soft background color */
+    color: #333; /* Dark grey for readability */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    background-color: #007bff; /* Bright blue to grab attention */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+main {
+    margin-top: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Georgia', serif;
+}
+
+h2 {
+    color: #0056b3; /* Slightly darker blue for section titles */
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h3 {
+    margin: 20px 0;
+    color: #d14a28; /* Warm color for subheadings, enhancing visual hierarchy */
+}
+
+img {
+    width: 100%; /* Responsive images */
+    max-width: 600px; /* Limiting image size */
+    height: auto;
+    display: block; /* Remove extra space below images */
+    margin: 0 auto 20px; /* Center images and add space below */
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* Navigation Styles */
+nav {
+    margin-bottom: 20px; /* Separate navigation from the header */
+}
+
+nav a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+   
+    img {
+        max-width: 100%; /* Make images fully responsive on smaller devices */
+    }
+}
